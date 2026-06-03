@@ -1,6 +1,0 @@
-services:
-  app:
-    image: nginx:alpine
-    ports:
-      - "3001:80"
-    restart: unless-stopped
